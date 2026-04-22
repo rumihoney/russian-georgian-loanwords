@@ -13,4 +13,4 @@ How results were obtained:
 - Words were manually translated and categorized
 - Python was used only to count frequencies and percentages
 
-No technical setup is required to understand the results.
+
