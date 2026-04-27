@@ -10,7 +10,8 @@ Files included:
 - full_report.docx → written analysis of the project
 
 How results were obtained:
-- Words were manually translated and categorized
+- Words were initially extracted from Wiktionary 
+- Words were then manually translated and categorized
 - Python was used only to count frequencies and percentages
 
 
