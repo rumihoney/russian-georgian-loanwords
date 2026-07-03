@@ -1,6 +1,6 @@
 # This file organizes all the Georgian loanwords from Russian into a dictionary with the specified category structure. 
 
-data = {
+russianloans_dictionary = {
   "აბაკი": {
     "transliteration": "abak'i", # plural form
     "ipa": "[äbäkʼi]",
