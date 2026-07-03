@@ -56,6 +56,5 @@ The manually annotated dataset contained **100 Russian loanwords** grouped into 
 
 - Expand the dataset beyond 100 loanwords.
 - Refine and standardize semantic category definitions.
-- Export analysis results automatically to CSV or Excel.
 - Incorporate corpus frequency data to compare dictionary entries with real language use.
 - Explore automatic semantic classification methods using NLP.
