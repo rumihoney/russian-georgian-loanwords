@@ -63,6 +63,7 @@ The final annotated dataset contains **100 Russian loanwords** grouped into sema
 - Jupyter Notebooks
 - JSON
 - Wiktionary
+- Matplotlib
 
 ## Future Improvements
 
@@ -70,7 +71,6 @@ The final annotated dataset contains **100 Russian loanwords** grouped into sema
 - Refine semantic categories.
 - Incorporate corpus frequency data.
 - Explore automatic semantic classification methods using NLP.
-- Visualize results (matplotlib)
   
 ## Course
 
