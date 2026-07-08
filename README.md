@@ -1,30 +1,44 @@
 # Russian Loanwords in Georgian
 
-A computational linguistics project for LING 421 investigating Russian loanwords in Georgian. The project combines Python, Wiktionary data, and manual linguistic annotation to analyze lexical borrowing patterns across semantic categories.
+A computational linguistics project for **LING 421 – Non-Indo-European Structures: Kartvelian Linguistics** (Concordia University, Winter 2026) investigating Russian loanwords in Georgian using Python, Wiktionary, and manual linguistic annotation.
 
-## Project Structure
+## Repository Structure
 
-- **dataset.py** — Extracts Georgian terms derived from Russian from Wiktionary.
-- **geo_borrowed_from_russian.json** — Raw dataset exported from Wiktionary.
-- **dictionary_structure.py** — Converts the raw dataset into a structured Python dictionary.
-- **dictionary_categories.json** — Prototype categorized dataset used during development.
-- **russianloans.py** — Final manually annotated dataset.
-- **data_analysis.py** — Python script for analyzing the annotated dataset.
-- **russianloans_analysis.ipynb** — Jupyter Notebook containing the complete analysis workflow and results.
-- **README.md** — Project documentation.
+The repository is organized according to the stages of the project.
 
-## Method
+```text
+russian-georgian-loanwords/
+│
+├── 01_data/
+│   ├── dictionary_categories.json
+│   └── geo_borrowed_from_russian.json
+│
+├── 02_scripts/
+│   ├── dataset.py
+│   ├── dictionary_structure.py
+│   └── data_analysis.py
+│
+├── 03_notebooks/
+│   ├── brainstorm.ipynb
+│   ├── russianloans_analysis.ipynb
+│   └── annotated_loans.py
+│
+├── 04_results/
+│   └── loanword_category_results.csv
+│
+└── README.md
+```
+
+The project follows a reproducible workflow:
 
 1. Extract Russian-derived Georgian terms from Wiktionary.
-2. Export the extracted entries as a JSON dataset.
-3. Convert the raw data into a structured dictionary.
-4. Manually annotate the final dataset with linguistic information.
-5. Analyze semantic category frequencies using Python.
-6. Present the results in a Jupyter Notebook.
+2. Structure and annotate the dataset.
+3. Analyze semantic borrowing patterns.
+4. Export the resulting data and statistics.
 
 ## Results
 
-The manually annotated dataset contained **100 Russian loanwords** grouped into semantic categories.
+The final annotated dataset contains **100 Russian loanwords** grouped into semantic categories.
 
 | Category | Count | Percentage |
 |----------|------:|-----------:|
@@ -38,23 +52,27 @@ The manually annotated dataset contained **100 Russian loanwords** grouped into 
 
 ### Key Findings
 
-- Institutional vocabulary represents the largest semantic category (26%).
-- Military terminology is also highly represented (23%), reflecting historical Russian-Georgian military contact.
-- Everyday and cultural vocabulary account for 17% and 14% of the dataset, respectively.
-- Economy (6%) and religion (3%) are comparatively less frequent sources of lexical borrowing.
-- Overall, the dataset suggests that Russian loanwords are concentrated primarily in institutional and military domains.
+- Institutional and military vocabulary account for nearly half of the dataset.
+- Everyday and cultural vocabulary are also common borrowing domains.
+- Economic and religious loanwords occur less frequently.
+- The results suggest that Russian lexical influence is concentrated primarily in institutional and military domains.
 
-
-## Technologies
+## Tools
 
 - Python
-- Jupyter Notebook
+- Jupyter Notebooks
 - JSON
 - Wiktionary
 
 ## Future Improvements
 
-- Expand the dataset beyond 100 loanwords.
-- Refine and standardize semantic category definitions.
-- Incorporate corpus frequency data to compare dictionary entries with real language use.
+- Expand the dataset.
+- Refine semantic categories.
+- Incorporate corpus frequency data.
 - Explore automatic semantic classification methods using NLP.
+- Visualize results (matplotlib)
+  
+## Course
+
+**LING 421 – Non-Indo-European Structures: Kartvelian Linguistics**  
+Concordia University, Winter 2026
