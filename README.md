@@ -58,3 +58,8 @@ The manually annotated dataset contained **100 Russian loanwords** grouped into 
 - Refine and standardize semantic category definitions.
 - Incorporate corpus frequency data to compare dictionary entries with real language use.
 - Explore automatic semantic classification methods using NLP.
+
+## Course
+
+**LING 421 – Non-Indo-European Structures: Kartvelian Linguistics**  
+Concordia University, Winter 2026
